@@ -23,22 +23,23 @@ kecuali anda mau host datanya di Github juga
 
 # Pakai langsung?
 
-siapkan url endpoint
-```https://bagussatoto.github.io/BMKG-commit/```
+siapkan url endpoint <br>
+[`https://bagussatoto.github.io/BMKG-commit/`](https://bagussatoto.github.io/BMKG-commit/)
 
-dari aplikasi, unduh file wilayah.json
-```https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json```
+dari aplikasi, unduh file [wilayah.json](./cuaca/wilayah.json) <br> 
+atau 
+[`https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json`](https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json)
 
 Dari json tersebut, kalkulasi lokasi user dengan wilayah terdekat, atau user pilih sendiri.
 
-lalu download cuaca di wilayah yang dipilih berdasarkan kodenya
-```https://bagussatoto.github.io/BMKG-commit/cuaca/idWilayah.json```
+lalu download cuaca di [wilayah.json](./cuaca/wilayah.json) yang dipilih berdasarkan kodenya <br>
+[`https://bagussatoto.github.io/BMKG-commit/cuaca/idWilayah.json`](https://bagussatoto.github.io/BMKG-commit/cuaca/idWilayah.json)
 
-contoh:
-```https://bagussatoto.github.io/BMKG-commit/cuaca/501233.json```
+contoh: [cuaca](./cuaca/1200027.json) <br>
+[`https://bagussatoto.github.io/BMKG-commit/cuaca/1200027.json`](https://bagussatoto.github.io/BMKG-commit/cuaca/1200027.json)
 
-sesuaikan kode cuaca dengan icon di folder icon
-```https://bagussatoto.github.io/BMKG-commit/icon/5.png```
+sesuaikan kode cuaca dengan icon di folder [icon](./icon/100.png) <br>
+[`https://bagussatoto.github.io/BMKG-commit/icon/100.png`](https://bagussatoto.github.io/BMKG-commit/icon/100.png)
 
 
 # Contoh
@@ -48,10 +49,9 @@ cek folder **contoh**
 
 
 #### Sumber
+-  [ibnux - BMKG importer](https://github.com/ibnux/BMKG-importer)
 -  [BMKG](http://data.bmkg.go.id/prakiraan-cuaca/)
 -  [ICON](http://www.iconarchive.com/tag/weather)
 -  [Medoo](http://www.iconarchive.com/tag/weather)
 
-Silahkan dimanfatkan untuk keperluan anda
-
-Developer 💖 Bagus Budi Satoto
+## Developer 💖 [Bagus Budi Satoto](https://github.com/bagussatoto/)
