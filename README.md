@@ -44,7 +44,7 @@ sesuaikan kode cuaca dengan icon di folder [icon](./icon/100.png) <br>
 
 # Contoh
 cek folder **contoh**
--  [HTML](contoh/html/)
+-  [HTML](contoh/html/index.html)
 -  [PHP](contoh/php/index.php)
 
 
@@ -54,4 +54,4 @@ cek folder **contoh**
 -  [ICON](http://www.iconarchive.com/tag/weather)
 -  [Medoo](http://www.iconarchive.com/tag/weather)
 
-## Developer 💖 [Bagus Budi Satoto](https://github.com/bagussatoto/)
+
