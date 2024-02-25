@@ -1,12 +1,12 @@
 <?php
 /**
- * Contoh dibuat oleh @ibnux
+ * Contoh dibuat oleh Bagus Budi Satoto
  */
 
 $lat = -6.3730914;
 $lon = 106.7116703;
 
-$wilayah = json_decode(file_get_contents("https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json"),true);
+$wilayah = json_decode(file_get_contents("https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json"),true);
 $jml = count($wilayah);
 
 //  hitung jarak
@@ -31,7 +31,7 @@ echo number_format($wilayah[0]['jarak'],2,",",".")." km</h2>\n";
 echo "\n";
 
 //ambil cuaca kota terdekat
-$json = json_decode(file_get_contents("https://ibnux.github.io/BMKG-importer/cuaca/".$wilayah[0]['id'].".json"),true);
+$json = json_decode(file_get_contents("https://bagussatoto.github.io/BMKG-commit/cuaca/".$wilayah[0]['id'].".json"),true);
 $time = time();
 $n = 0;
 echo '<table border="1"><tr>';
@@ -40,7 +40,7 @@ foreach($json as $cuaca){
     //yang lewat ngga perlu ditampilkan
     if($timeCuaca>$time){
         echo '<td>';
-        echo '<img src="https://ibnux.github.io/BMKG-importer/icon/'.$cuaca['kodeCuaca'].'.png" class="image">';
+        echo '<img src="https://bagussatoto.github.io/BMKG-commit/icon/'.$cuaca['kodeCuaca'].'.png" class="image">';
         echo '<p>'.$cuaca['cuaca'].'</p>';
         echo "</td>\n";
     }

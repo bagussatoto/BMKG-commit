@@ -40,7 +40,7 @@
 
 
         function getWilayah() {
-            $.getJSON('https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json', function (data) {
+            $.getJSON('https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json', function (data) {
                 var items = [];
                 var jml = data.length;
 
@@ -67,14 +67,14 @@
         }
 
         function getCuaca(idWilayah) {
-            $.getJSON('https://ibnux.github.io/BMKG-importer/cuaca/'+idWilayah+'.json', function (data) {
+            $.getJSON('https://bagussatoto.github.io/BMKG-commit/cuaca/'+idWilayah+'.json', function (data) {
                 var items = [];
                 var jml = data.length;
 
                 //setelah dapat jarak,  ambil 5 terdekat
                 for (n = 0; n < jml; n++) {
                     items.push('<div class="card text-center">'+
-                            '<img src="https://ibnux.github.io/BMKG-importer/icon/'+
+                            '<img src="https://bagussatoto.github.io/BMKG-commit/icon/'+
                             data[n].kodeCuaca+
                             '.png" class="card-img-top">'+
                             '<div class="card-body"><h5 class="card-title">'+

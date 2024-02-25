@@ -6,7 +6,7 @@
  * Jalankan Script ini dari Command Line, gunakan Crontab agar di eksekusi tiap hari
  * contoh crontab https://crontab.guru/#0_3_*_*_*
  *
- * Dibuat oleh Ibnu Maksum @ibnux
+ * Dibuat oleh Bagus Budi Satoto
  * Sumber BMKG: http://data.bmkg.go.id/
  * */
 date_default_timezone_set("Asia/Jakarta");
