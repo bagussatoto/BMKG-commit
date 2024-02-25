@@ -24,21 +24,21 @@ kecuali anda mau host datanya di Github juga
 # Pakai langsung?
 
 siapkan url endpoint
-```https://ibnux.github.io/BMKG-importer/```
+```https://bagussatoto.github.io/BMKG-commit/```
 
 dari aplikasi, unduh file wilayah.json
-```https://ibnux.github.io/BMKG-importer/cuaca/wilayah.json```
+```https://bagussatoto.github.io/BMKG-commit/cuaca/wilayah.json```
 
 Dari json tersebut, kalkulasi lokasi user dengan wilayah terdekat, atau user pilih sendiri.
 
 lalu download cuaca di wilayah yang dipilih berdasarkan kodenya
-```https://ibnux.github.io/BMKG-importer/cuaca/idWilayah.json```
+```https://bagussatoto.github.io/BMKG-commit/cuaca/idWilayah.json```
 
 contoh:
-```https://ibnux.github.io/BMKG-importer/cuaca/501233.json```
+```https://bagussatoto.github.io/BMKG-commit/cuaca/501233.json```
 
 sesuaikan kode cuaca dengan icon di folder icon
-```https://ibnux.github.io/BMKG-importer/icon/5.png```
+```https://bagussatoto.github.io/BMKG-commit/icon/5.png```
 
 
 # Contoh
