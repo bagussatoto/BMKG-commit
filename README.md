@@ -1,5 +1,5 @@
 
-## Importer Data Prakiraan Cuaca BMKG
+## Data Prakiraan Cuaca BMKG
 
 ![Cuaca](https://data.bmkg.go.id/include/assets/img/cuaca.svg)
 
